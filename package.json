@@ -4,19 +4,22 @@
   "description": "Simplest possible example of the Monaco editor.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "live-server"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codecapers/monaco-editor-example.git"
+    "url": "git+https://github.com/ashleydavis/monaco-editor-example.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/codecapers/monaco-editor-example/issues"
+    "url": "https://github.com/ashleydavis/monaco-editor-example/issues"
   },
-  "homepage": "https://github.com/codecapers/monaco-editor-example#readme",
+  "homepage": "https://github.com/ashleydavis/monaco-editor-example#readme",
   "dependencies": {
-    "monaco-editor": "^0.5.3"
+    "monaco-editor": "^0.20.0"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
   }
 }
